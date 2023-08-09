@@ -1,0 +1,65 @@
+button {
+    display: flex;
+    flex-direction: column;
+}
+
+#weatherData {
+    padding-left: 20%;
+    margin-top: -10%;
+}
+
+li {
+    color: rebeccapurple;
+    padding-left: 20%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -10%
+}
+
+#forecast-heading {
+    padding-left: 20%;
+    color: rebeccapurple;
+}
+
+.cards {
+    /* display: grid;  
+    grid-gap: 0;
+    grid-auto-columns: min-content;
+    grid-template-rows: max-content 1fr;
+    border: solid 1px green; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start; 
+}
+
+.card {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    color: white;
+    background-color: rgba(3, 4, 3, 0.434)
+}
+
+#searchHistory {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -10%;
+}
+
+
+.savedButton {
+    margin-left: -29.3%;
+    margin-top: 15%;
+}
+
+#weatherData {
+    margin-top: -35%;
+    display: flex;
+    flex-direction: row;
+} 
