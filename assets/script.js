@@ -1,7 +1,7 @@
   var APIKey = "9938a6ec59d51081d2c12e3bec0443af";
   var city = document.getElementById("cityName").value;
   var queryURL =
-    "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
+    "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
   var searchHistory = [];
   var savedButtons = document.getElementsByClassName("savedButton");
 
