@@ -55,7 +55,7 @@ li {
 
 .savedButton {
     margin-left: -29.3%;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 #weatherData {
@@ -63,3 +63,8 @@ li {
     display: flex;
     flex-direction: row;
 } 
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
