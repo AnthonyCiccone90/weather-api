@@ -12,9 +12,9 @@
     var APIKey = "9938a6ec59d51081d2c12e3bec0443af";
     
     var queryURL =
-      "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
+      "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
     
-    var forecastURL = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIKey}`;
+    var forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIKey}`;
 
     fetch(queryURL)
       .then((response) => response.json())
@@ -111,7 +111,7 @@
 
 
   function weatherEmoji(iconCode) {
-    return `http://openweathermap.org/img/w/${iconCode}.png`;
+    return `https://openweathermap.org/img/w/${iconCode}.png`;
   }
 
   function savedSearchHistory(city,) {
