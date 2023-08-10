@@ -16,4 +16,9 @@ This challenge was to create a weather application that gives current and future
 <hr>
 Link to deployed paged:
 
+https://anthonyciccone90.github.io/weather-api/
+
 Link to Github repository:
+https://github.com/AnthonyCiccone90/weather-api
+<hr>
+User story provided by the University of Denver
