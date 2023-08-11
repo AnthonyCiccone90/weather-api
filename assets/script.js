@@ -114,7 +114,7 @@
     return `https://openweathermap.org/img/w/${iconCode}.png`;
   }
 
-  function savedSearchHistory(city,) {
+  function savedSearchHistory(city) {
     searchHistory.push(city);
     var searchHistoryEl = document.getElementById("searchHistoryList");
     searchHistoryEl.innerHTML = `
